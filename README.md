@@ -1,1 +1,1 @@
-# Pr-ctica-UYA
+# Prácticas UYA
