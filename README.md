@@ -13,7 +13,7 @@
 			
      - Tormenta de Ideas
     
-	   Se aplicó una tormenta de ideas con todos los especialistas y técnicos de la Biblioteca para identificar otros requerimientos nuevos y ver las necesidades coincidentes con los directivos. En ambos casos cada grupo está formado por graduados de la especialidad de ciencias de la información con experiencia en prestación de servicios de información a diversos grupos de usuarios.
+       Se aplicó una tormenta de ideas con todos los especialistas y técnicos de la Biblioteca para identificar otros requerimientos nuevos y ver las necesidades coincidentes con los directivos. En ambos casos cada grupo está formado por graduados de la especialidad de ciencias de la información con experiencia en prestación de servicios de información a diversos grupos de usuarios.
 			
 - Fase 2: Diseño
   - Conceptual
@@ -22,24 +22,24 @@
       Una vez identificados los primeros requisitos del proyecto, se procedió a realizar un estudio de homólogos (o análisis competitivo). Esta técnica facilita realizar comparaciones entre sitios con objetivos, contenidos y público similar. Otro de los elementos que se analiza con los homólogos es el nombre que tiene cada etiqueta y la cantidad de coincidencias.
       
     - Card Sorting 
-		Esta técnica es ideal para pulir la primera aproximación del mapa taxonómico. Consiste en seleccionar una muestra de usuarios del sitio y obtener su criterio con respecto a los contenidos y la organización que podrían tener. Puede realizarse de dos formas,abierta y cerrada. En el ejercicio aplicado, los participantes debían darle un orden consecutivo a las categorías generales y agrupar las subcategorías específicas dentro de cada grupo general.
+    
+      Esta técnica es ideal para pulir la primera aproximación del mapa taxonómico. Consiste en seleccionar una muestra de usuarios del sitio y obtener su criterio con respecto a los contenidos y la organización que podrían tener. Puede realizarse de dos formas,abierta y cerrada. En el ejercicio aplicado, los participantes debían darle un orden consecutivo a las categorías generales y agrupar las subcategorías específicas dentro de cada grupo general.
 
-Prototipos
+  - Prototipos
 
-Tarea de modelado
-Una vez organizados los contenidos, se procede a realizar bocetos sobre la estructura aproximada del sitio; cómo van a estar distribuidos los contenidos y la representación lógica de navegación para el usuario.
+    - Tarea de modelado
+      Una vez organizados los contenidos, se procede a realizar bocetos sobre la estructura aproximada del sitio; cómo van a estar distribuidos los contenidos y la representación lógica de navegación para el usuario.
 
-Prototipado Digital
-Cuando ya la idea estructural del portal está concebida en bocetos, se realizan los prototipos digitales no funcionales del sitio.
-Estos modelos son muy importantes para el equipo de trabajo, pues en ellos se refleja la realidad del proyecto aún sin implementar.
+    - Prototipado Digital
+      Cuando ya la idea estructural del portal está concebida en bocetos, se realizan los prototipos digitales no funcionales del sitio. Estos modelos son muy importantes para el equipo de trabajo, pues en ellos se refleja la realidad del proyecto aún sin implementar.
 
-Fase 3: Evaluación
-Test de usuarios
-Estas pruebas se basan en la observación de cómo un grupo de usuarios llevan a cabo una serie de tareas encomendadas por el evaluador, analizando los problemas con los que se encuentran.
-Este tipo de test puede realizarse de tres formas:
-Observando al usuario interactuar con el software o prototipo en su entorno.
-En un laboratorio donde se observa a los usuarios a través de un espejo translúcido.
-Grabaciones de perfiles de usuario en cámaras del laboratorio, de manera remota con una herramienta informática.
+- Fase 3: Evaluación
+  - Test de usuarios
+    Estas pruebas se basan en la observación de cómo un grupo de usuarios llevan a cabo una serie de tareas encomendadas por el evaluador, analizando los problemas con los que se encuentran. 
+    Este tipo de test puede realizarse de tres formas:
+    - Observando al usuario interactuar con el software o prototipo en su entorno.
+    - En un laboratorio donde se observa a los usuarios a través de un espejo translúcido.
+    - Grabaciones de perfiles de usuario en cámaras del laboratorio, de manera remota con una herramienta informática.
 
 En las pruebas con usuarios es recomendable aplicar el protocolo de Pensamiento en Voz Alta.
 
