@@ -1,4 +1,3 @@
-# Prácticas UYA
 # SEMINARIO DEL DCU
 
 ## Estudio de caso de un portal bibliotecario
