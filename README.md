@@ -50,19 +50,21 @@
 
 2. Aplicar el DCU para la realización de un prototipo de una aplicación web. Para ello:
 
-Definir las tareas que se llevarán a cabo en la fase de investigación y diseño conceptual de la aplicación.
-Se pretende diseñar una aplicación web para la compra de productos informáticos y tecnológicos. También se pretende disponer de un carrito de compra que guarde los productos para su posterior compra, un sistema de devolución/reemplazo de productos, un sistema de mensajería de soporte con la empresa, ofrecer la mayor calidad en los productos que se oferten en la página web y garantizar el mejor servicio de atención al cliente.
-Fase 1: Análisis
-Investigación
- Identificación de requisitos del Cliente
-Se va a hacer una entrevista con el cliente para saber los requisitos necesarios para el diseño de dicha aplicación web.
-En este caso, en dicha entrevista hemos identificado los siguientes requisitos pedidos por el cliente:
-Sistema de carrito de compra
-Sistema de devolución de productos
-Sistema de reemplazo de productos
-Sistema de mensajería de soporte con la empresa
-Sistema de búsqueda de productos
-Tormenta de Ideas
+Definir las tareas que se llevarán a cabo en la fase de investigación y diseño conceptual de la aplicación. Se pretende diseñar una aplicación web para la compra de productos informáticos y tecnológicos. También se pretende disponer de un carrito de compra que guarde los productos para su posterior compra, un sistema de devolución/reemplazo de productos, un sistema de mensajería de soporte con la empresa, ofrecer la mayor calidad en los productos que se oferten en la página web y garantizar el mejor servicio de atención al cliente.
+
+- Fase 1: Análisis
+  - Investigación
+  
+    - Identificación de requisitos del Cliente
+     
+      Se va a hacer una entrevista con el cliente para saber los requisitos necesarios para el diseño de dicha aplicación web. En este caso, en dicha entrevista hemos identificado los siguientes requisitos pedidos por el cliente:
+      - Sistema de carrito de compra
+      - Sistema de devolución de productos
+      - Sistema de reemplazo de productos
+      - Sistema de mensajería de soporte con la empresa
+      - Sistema de búsqueda de productos
+      - 
+    - Tormenta de Ideas
 Se aplicó una tormenta de ideas con todos los analistas del proyecto para ver todas las posibles soluciones  con los directivos a las necesidades de los usuarios. 
 Los miembros son gente formada y graduada en especialidades de ciencias de la información y tecnológica con experiencia en prestación de servicios de información a diversos conjuntos de clientes y con especialización en hacer que el proyecto tenga una mejor impresión llamativa e interactiva a primera vista. 
 Los requisitos se detallan a continuación:
