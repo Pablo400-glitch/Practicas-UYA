@@ -6,13 +6,13 @@
 1. Indica en el documento del ejemplo de aplicación del DCU, qué actividades se corresponden con el diagrama de Métodos DCU y en qué fase del diseño se ubica.
 
 - Fase 1: Análisis
-- Investigación 
-- Identificación de requisitos del Cliente
+ - Investigación 
+  - Identificación de requisitos del Cliente
 
 	La primera técnica utilizada fue la entrevista, que se aplicó a los clientes directos que solicitaron el proyecto, en este caso los directivos principales de la biblioteca. 
 	En ella se identificaron los primeros requisitos funcionales y no funcionales del proyecto.
 			
-- Tormenta de Ideas
+  - Tormenta de Ideas
     
 	Se aplicó una tormenta de ideas con todos los especialistas y técnicos de la Biblioteca para identificar otros requerimientos nuevos y ver las necesidades coincidentes con los directivos. En ambos casos cada grupo está formado por graduados de la especialidad de ciencias de la información con experiencia en prestación de servicios de información a diversos grupos de usuarios.
 			
