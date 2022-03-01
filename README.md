@@ -41,11 +41,11 @@
     Estas pruebas se basan en la observación de cómo un grupo de usuarios llevan a cabo una serie de tareas encomendadas por el evaluador, analizando los problemas con los que se encuentran. 
     
     Este tipo de test puede realizarse de tres formas:
-    - Observando al usuario interactuar con el software o prototipo en su entorno.
-    - En un laboratorio donde se observa a los usuarios a través de un espejo translúcido.
-    - Grabaciones de perfiles de usuario en cámaras del laboratorio, de manera remota con una herramienta informática.
+     - Observando al usuario interactuar con el software o prototipo en su entorno.
+     - En un laboratorio donde se observa a los usuarios a través de un espejo translúcido.
+     - Grabaciones de perfiles de usuario en cámaras del laboratorio, de manera remota con una herramienta informática.
 
-En las pruebas con usuarios es recomendable aplicar el protocolo de Pensamiento en Voz Alta.
+    En las pruebas con usuarios es recomendable aplicar el protocolo de Pensamiento en Voz Alta.
 
 
 2. Aplicar el DCU para la realización de un prototipo de una aplicación web. Para ello:
