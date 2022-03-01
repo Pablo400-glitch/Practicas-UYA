@@ -28,11 +28,11 @@
   - Prototipos
 
     - Tarea de modelado
-    - 
+     
       Una vez organizados los contenidos, se procede a realizar bocetos sobre la estructura aproximada del sitio; cómo van a estar distribuidos los contenidos y la representación lógica de navegación para el usuario.
 
     - Prototipado Digital
-    - 
+    
       Cuando ya la idea estructural del portal está concebida en bocetos, se realizan los prototipos digitales no funcionales del sitio. Estos modelos son muy importantes para el equipo de trabajo, pues en ellos se refleja la realidad del proyecto aún sin implementar.
 
 - Fase 3: Evaluación
