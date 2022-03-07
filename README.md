@@ -149,5 +149,3 @@ Se pretende diseñar una aplicación web para la compra de productos informátic
     
     En nuestra web los gamers, ingenieros informáticos y programadores van a estar más interesados en los productos informáticos que en los tecnológicos. 
 Mientras que los estudiantes, jóvenes  y personas mayores de 30 años estarán más interesados en los productos tecnológicos que en los informáticos.
-
-Hola
