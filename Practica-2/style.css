@@ -1,0 +1,134 @@
+body {
+    background-color: rgb(182, 84, 19);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 770px;
+    height: 400px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    line-size: 1.3rem;
+}
+
+p {
+    margin-bottom: 1.6em;
+}
+
+.container {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.header {
+  /*background-color: rgb(174, 182, 19);*/
+  background: #333;
+  color: white;
+  padding: 2rem 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 770px;
+  height: 100px;
+}
+  .header a {
+    color: white;
+    text-decoration: none;
+  }
+
+.logo {
+  letter-spacing: 15px;
+  font-size: 1.4rem;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+  .navigation ul li {
+    display: inline-block;
+  }
+
+    .navigation ul li a {
+      display: block;
+      padding: 0.5rem 1rem;
+      transition: all 0.4s linear;
+      border-radius: 5px;
+    }
+
+    .navigation ul li a:hover {
+      background: #4a4a4a
+    }
+
+.main {
+  padding-top: 20rem;
+}
+
+.footer {
+  background: #555454;
+  padding: 4rem 0;
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.container logo-nav-container {
+  display: flex;;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: Ancho) {
+.navigation {
+  width: 100%;
+}
+  .navigation ul {
+    list-style: none;
+  }
+  
+    .navigation ul li {
+      display: inline-block;
+    }
+  
+      .navigation ul li a {
+        display: block;
+        padding: 0.5rem 1rem;
+        transition: all 0.4s linear;
+        border-radius: 5px;
+      }
+  
+      .navigation ul li a:hover {
+        background: #4a4a4a
+      }
+}
+/*
+div#der_colum{
+  background-color: rgb(96, 17, 223);
+  width: 20%;
+  height: 100%;
+  position: relative;
+  float: left;
+}
+div#izq_colum{
+  background-color: rgb(42, 194, 174);
+  width: 50%;
+  height: 100%;
+  position: relative;
+  float: left;
+}
+div#mid_colum{
+  background-color: rgb(194, 42, 169);
+  width: 30%;
+  height: 100%;
+  position: relative;
+  float: left;
+}
+div#footer {
+  background-color: rgb(29, 27, 61);
+  width: 770px;
+  height: 100px;
+  position: relative;
+  float: left;
+}*/

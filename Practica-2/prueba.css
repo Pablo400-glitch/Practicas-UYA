@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(182, 84, 19);
+    font-family: Arial, black;
+    width: 770px;
+    height: 400px;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+a:hover {
+    background: #ccc;
+    color: #d50707;
+    cursor: pointer;
+    padding: 0.5em 1em;
+    transition: all 0.2s;
+  }
+
+#header {
+    background-color: rgb(174, 182, 19);
+    width: 770px;
+    height: 100px;
+  }
+  #der_colum{
+    background-color: rgb(96, 17, 223);
+    width: 130px;
+    height: 100%;
+    position: relative;
+    float: left;
+  }
+  #izq_colum{
+    background-color: rgb(42, 194, 174);
+    width: 385px;
+    height: 100%;
+    position: relative;
+    float: left;
+  }
+  #mid_colum{
+    background-color: rgb(194, 42, 169);
+    width: 255px;
+    height: 100%;
+    position: relative;
+    float: left;
+  }
+  #footer {
+    background-color: rgb(29, 27, 61);
+    width: 770px;
+    height: 100px;
+    position: relative;
+    float: left;
+  }
