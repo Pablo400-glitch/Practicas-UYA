@@ -16,9 +16,10 @@ a:hover {
   }
 
 #header {
-    background-color: rgb(174, 182, 19);
+    /*background-color: rgb(174, 182, 19);*/
     width: 770px;
     height: 100px;
+    background-image: url("https://i.gyazo.com/6c389942bbeb041a690b71f76abf88df.png"); 
   }
   #der_colum{
     background-color: rgb(96, 17, 223);
@@ -47,4 +48,31 @@ a:hover {
     height: 100px;
     position: relative;
     float: left;
+  }
+
+  ul{
+    list-style: none;
+  }
+  #menu li>a{
+    background-color: rgb(54, 29, 29);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    min-width: 10px;
+  }
+  #menu li>a:hover{
+    color: #000;
+    background-color: #eaeaea;
+  }
+
+  #menu>li{
+    float: left;
+    text-align:center
+  }
+  #menu>li>ul{
+    display: none;
+  }
+  #menu>li:hover>ul {
+    display:block;
   }
