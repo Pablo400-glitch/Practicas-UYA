@@ -7,8 +7,16 @@ body {
   font-size: 1.5em;
 }
 
+p {
+  margin: 0.5em;
+}
+/*
 table {
   border: #b2b2b2 1px solid;
+}*/
+.links_verdes {
+  color:green;
+  text-decoration: none;
 }
 
 td, th {
@@ -19,7 +27,8 @@ a:hover {
   background: #ccc;
   color: #d50707;
   cursor: pointer;
-  padding: 0.5em 1em;
+  padding: .3em 1em;
+  margin-bottom: .7em;
   transition: all 0.2s;
 }
 
@@ -33,6 +42,15 @@ a:hover {
 #header > a:link {
   outline: none;
   text-decoration: none;
+}
+
+#menu li>a{
+  background-color: rgb(54, 29, 29);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  min-width: 10px;
 }
 
 #der_colum{
@@ -55,7 +73,7 @@ a:hover {
   height: 100%;
   position: relative;
   float: left;
-  text-align: center;   
+  text-align: center;
 }
 
 /*#izq_colum>section>tr>td {
@@ -75,7 +93,11 @@ a:hover {
   outline: none;
   text-decoration: none;
 }
-
+/*
+.texto-justificado{
+  text-align: justify;
+}
+*/
 #footer {
   background-color: rgb(29, 27, 61);
   width: 770px;
@@ -85,19 +107,15 @@ a:hover {
   text-align: center;
 }
 
+section {
+  text-align: justify;
+}
+
 ul{
   list-style: none;
   width: 150px;
 }
 
-#menu li>a{
-  background-color: rgb(54, 29, 29);
-  color: rgb(255, 255, 255);
-  padding: 10px;
-  display: block;
-  text-decoration: none;
-  min-width: 10px;
-}
 
 #menu li>a:hover{
   color: #000;
