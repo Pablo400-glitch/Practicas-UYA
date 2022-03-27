@@ -1,25 +1,6 @@
+/*Para la alineación de imagen*/
 figure {
   margin: 0;
   display: inline-block;
   position: relative;
-}
-
-p {
-  transition: all 0.3s;
-  display: none;
-  position: relative;
-  font-family: Arial, black;
-  font-size: 20px;
-  margin-bottom: 1.6em;
-  width: 90%;
-  padding: 5%;
-}
-
-figure:hover p {
-  display: block;
-}
-
-a {
-  font-family: Arial, black;
-  font-size: 20px;
 }
