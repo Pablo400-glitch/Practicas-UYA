@@ -1,10 +1,3 @@
-function writeText() {
-  var text = prompt("Introduzca algún texto", "Algo");
-  if (text != null) {
-    alert(text);
-  }
-}
-
 function calculateMoney() {
   const clientInformation = '{"dni":"none", "birthday":"none", "accountNumber":"none", "productsNumber":0, "discount":0, "paymentMethod":"none"}'
   const object = JSON.parse(clientInformation);
