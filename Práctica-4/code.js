@@ -8,11 +8,11 @@ function writeText() {
 function calculateMoney() {
   const clientInformation = '{"dni":"none", "birthday":"none", "accountNumber":"none", "productsNumber":0, "discount":0, "paymentMethod":"none"}'
   const object = JSON.parse(clientInformation);
-  
   var totalPrice = 0;
   var price = 0;
   var i = 1;
   var priceProduct = 0;
+
   object.dni = prompt("Introduzca su DNI", "XXXXXXXXX");
   object.birthday = prompt("Introduzca su cumpleaños", "1/1/22");
   object.accountNumber = prompt("Introduzca su número de cuenta", "XXXX-XXXX-XXXX-XXXX");
@@ -35,5 +35,10 @@ function calculateMoney() {
     totalPrice = priceProduct;
   }
 
+  return totalPrice;
+}
+
+function printPrice() {
+  var totalPrice = calculateMoney();
   document.write(`Usted tiene que pagar ${totalPrice} euros`);
 }
