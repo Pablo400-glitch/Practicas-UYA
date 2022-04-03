@@ -1,0 +1,6 @@
+/*Para la alineación de imagen*/
+figure {
+  margin: 0;
+  display: inline-block;
+  position: relative;
+}
