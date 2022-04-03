@@ -74,3 +74,8 @@ function countItems(listID){
   while(ul.getElementsByTagName('li') [i++]) itemCount++;
   document.write(itemCount);
 }
+
+function counter() {
+  var divs = document.getElementsByClassName("count").length;
+  document.write("Hay " + divs + " elementos");
+}
