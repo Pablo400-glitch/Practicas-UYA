@@ -6,6 +6,8 @@ function writeText() {
 }
 
 function calculateMoney() {
+  // Se nos exige utilizar un json para definir los datos necesarios sobre un cliente para poder trabajar con ellos y guardar estos datos en la variable 
+  // clientInformation donde se guardan dichos datos del cliente 
   const clientInformation = '{"dni":"none", "birthday":"none", "accountNumber":"none", "productsNumber":0, "discount":0, "paymentMethod":"none"}'
   const object = JSON.parse(clientInformation);
   var totalPrice = 0;
@@ -39,6 +41,36 @@ function calculateMoney() {
 }
 
 function printPrice() {
+  var date = new Date;
+  var result = 0;
   var totalPrice = calculateMoney();
-  document.write(`Usted tiene que pagar ${totalPrice} euros`);
+  var plazos = 0;
+
+  document.write(`Usted tiene que pagar ${totalPrice} euros.`);
+  var payment = prompt('¿Desea pagarlo a plazos?');
+  if (payment === 'Si') {
+    do {
+      plazos = prompt(`¿En cuantos plazos?`);
+    } while (plazos > 12);
+    if (plazos > 0 && plazos <= 12) {
+      result = totalPrice / plazos;
+      document.write(`Tiene que pagar ${result} euros en ${plazos} meses. `);
+      if (date.getMonth() + parseInt(plazos) < 12) {
+        document.write(`Lo terminará de pagar el día ${date.getDate()}/${date.getMonth() + parseInt(plazos)}/${date.getFullYear()}`);
+        plazos = 0;
+      } else {
+        document.write(`Lo terminará de pagar el día ${date.getDate()}/${(date.getMonth() + parseInt(plazos)) - 12}/${date.getFullYear() + 1}`);
+        plazos = 0;
+      }
+    } 
+  } else {
+    document.write(`Lo ha comprado hoy ${date.getDate()}/${date.getMonth()}/${date.getFullYear()}`);
+  }
+}
+
+function countItems(listID){
+  var ul = document.getElementById(listID);
+  var i=0, itemCount =0;
+  while(ul.getElementsByTagName('li') [i++]) itemCount++;
+  document.write(itemCount);
 }
