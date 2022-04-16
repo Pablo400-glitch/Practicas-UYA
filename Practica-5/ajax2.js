@@ -1,10 +1,21 @@
-//console.log('correcto');
-document.querySelector('#boton').addEventListener('click', traerDatos);
+document.querySelector('#showdata').addEventListener('click', getData);
+document.querySelector('#login').addEventListener('click', checkData);
 
-function traerDatos(){
-  // console.log('Dentro de la función');
+$(document).ready(function(){
+  $("#showdata").hide();
+  $("#showdata").click(function() {
+    $("#showdata").hide()
+  });
+  $("input").focus(function(){
+    $(this).css("background-color", "lightblue");
+  });
+  $("input").blur(function(){
+    $(this).css("background-color", "white");
+  });
+});
+
+function getData() {
   const xhttp = new XMLHttpRequest()
-
   xhttp.open('GET', 'catalogo.json', true)
   xhttp.send()
 
@@ -23,7 +34,8 @@ function traerDatos(){
           <th>Descuento</th>
           <th>Método de pago</th>
           <th>DNI</th>
-        </tr>`
+        </tr>
+      `
       for (let item of datos) { 
         res.innerHTML += `
           <tr>
@@ -36,6 +48,45 @@ function traerDatos(){
             <td>${item.dni}</td>
           </tr>
         `
+      }
+    }
+  }
+} 
+
+function checkData() {
+  const xhttp = new XMLHttpRequest()
+  xhttp.open('GET', 'catalogo.json', true)
+  xhttp.send()
+
+  xhttp.onreadystatechange = function() {
+    if(this.readyState == 4 && this.status == 200) {
+      let datos = JSON.parse(this.responseText);
+      let accountNumber = document.getElementsByName('accountnumber')[0].value;
+    	let nombre = document.getElementsByName('nombre')[0].value;
+      let isUser = false;
+      let empty = false;
+
+      if (accountNumber === '' || nombre === '') {
+        empty = true;
+      } else {
+        for (let item of datos) { 
+          if(nombre == item.nombre && accountNumber == item.accountNumber) {
+            isUser = true;
+          } 
+        }
+      }
+
+      if (isUser === true) {
+        alert('Esa cuenta existe');
+        $(document).ready(function(){
+          $("#showdata").show();
+        });
+      } else {
+        if (empty === true) {
+          alert('No ha introducido ningún dato');
+        } else {
+          alert('Esa cuenta no existe');
+        }
       }
     }
   }

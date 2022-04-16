@@ -6,15 +6,27 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   </head>
   <body>
+    <form method="post" id="formdata">
+      <label for="nombre" class="black-text">Nombre </label>
+        <input type="text" name="nombre" id="nombre" placeholder="Pablo" required="required"></br>
+      <label for="accountnumber" class="black-text">Número de cuenta </label>
+        <input type="number" name="accountnumber" id="accountnumber" placeholder="1" required="required" ></br>
+    </form>
     <div class="container">
       <div class="section">
-        <button class="btn" id="boton">Json</button>
+        <button class="btn" id="login">Iniciar Sesión</button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="section">
+        <button class="btn" id="showdata">Mostrar Datos</button>
       </div>
     </div>
     
     <table>
       <thead id="head"></thead>
       <tbody id="res"></tbody>
+    </table>
     <script src="ajax2.js"></script>
   </body>
 
