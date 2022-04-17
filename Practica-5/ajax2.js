@@ -80,6 +80,11 @@ function checkData() {
         alert('Esa cuenta existe');
         $(document).ready(function(){
           $("#showdata").show();
+          $("#login").hide();
+          $("#nombretext").hide();
+          $("#accountnumbertext").hide();
+          $("#nombre").hide();
+          $("#accountnumber").hide();
         });
       } else {
         if (empty === true) {
@@ -91,3 +96,4 @@ function checkData() {
     }
   }
 } 
+
