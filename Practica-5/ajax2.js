@@ -77,7 +77,7 @@ function checkData() {
       }
 
       if (isUser === true) {
-        alert('Esa cuenta existe');
+        alert('Se ha iniciado sesión de forma satisfactoria');
         $(document).ready(function(){
           $("#showdata").show();
           $("#login").hide();
