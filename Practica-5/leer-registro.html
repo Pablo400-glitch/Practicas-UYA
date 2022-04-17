@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Registro</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>
+        var ref = new Firebase("https://prueba-firebase.firebaseio.com/");
+        ref.on("value", function(snapshot) {
+            var data = snapshot.val();
+            document.getElementById("nombre").textContent = data.nombre;
+            document.getElementById("accountnumber").textContent = data.accountnumber;
+        });
+    </script>
+  </head>
+  <body>
+   <h1 id="titular"></h1>
+   <p>Nombre: <span id="nombre"></span></p>
+   <p>Accountnumber: <span id="accountnumber"></span></p>
+  </body>
+</html>

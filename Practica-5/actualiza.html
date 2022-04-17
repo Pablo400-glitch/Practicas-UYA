@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Registro</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>
+        var ref = new Firebase("https://prueba-firebase.firebaseio.com/");
+        var obj = {
+            nombre: "",
+            accountnumber: ""
+        };
+        ref.update(obj);
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
