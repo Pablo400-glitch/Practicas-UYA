@@ -14,7 +14,6 @@ $(document).ready(function(){
   });
 });
 
-
 function getData() {
   const xhttp = new XMLHttpRequest()
   xhttp.open('GET', 'catalogo.json', true)
