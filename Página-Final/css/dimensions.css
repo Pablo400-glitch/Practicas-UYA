@@ -1,0 +1,11 @@
+/*Para la alineación de imagen*/
+figure {
+  margin: 0;
+  display: inline-block;
+  position: relative;
+}
+
+html {
+  margin-left:4% ;
+  margin-right:4% ;
+}
