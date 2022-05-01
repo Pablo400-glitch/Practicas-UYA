@@ -8,6 +8,8 @@
         <link href="css/dimensions.css" rel="stylesheet">
         <link href="css/socialmediaicons.css" rel="stylesheet">
         <link rel="stylesheet" href="resize_img.css">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="utilities.js"></script>
     </head>
     <body>
         <!--Menú en formato texto-->
@@ -26,15 +28,17 @@
         </div>
         </header>
             <article>
-                <div class="row light-blue z-depht-5">
+                <div id="SecondMenu" class="row light-blue z-depht-5">
                     <div class="col s3 center-align">
-                        <h4 tabindex="0" role="heading">Principales Categorías</h4>
+                        <h4 tabindex="0" role="heading" id="MainCategoriesTitle">Principales Categorías</h4>
+                        <nav id="MainCategories" class="light-blue accent-4">
                             <a href="#" class="black-text" role="link"> PC </a> |
                             <a href="#" class="black-text" role="link"> Portátiles </a> |
                             <a href="#" class="black-text" role="link"> Periféricos </a> |
                             <a href="#" class="black-text" role="link"> Altavoces </a> |
                             <a href="#" class="black-text" role="link"> Tablets </a> |
                             <a href="#" class="black-text" role="link"> Televisores </a> 
+                        </nav>
                     </div>
                     <div class="col s2 center-align">
                         <h4 tabindex="0" role="heading">Carrito de la compra</h4>
@@ -46,11 +50,13 @@
                         <h4 tabindex="0" role="heading">Promociones</h4>
                     </div>
                     <div class="col s3 center-align">
-                        <h4 tabindex="0" role="heading">Mi cuenta</h4>
+                        <h4 tabindex="0" role="heading" id="MyAccountTitle">Mi cuenta</h4>
+                        <nav id="MyAccount" class="light-blue accent-4">
                             <a href="#" class="black-text" role="link"> Mis datos </a> |
                             <a href="#" class="black-text" role="link"> Pago </a> |
                             <a href="#" class="black-text" role="link"> Lista de deseos </a> |
-                            <a href="#" class="black-text" role="link"> Cerrar sesión </a> 
+                            <a href="#" class="black-text" role="link"> Cerrar sesión </a>
+                        </nav>        
                     </div>
                 </div>
             </article>
@@ -202,9 +208,6 @@
                             <li><a class="btn btn-icon btn-linkedin" href="#"><i class="fa fa-linkedin"></i><span> LinkedIn</span></a></li>
                             <li><a class="btn btn-icon btn-instagram" href="#"><i class="fa fa-instagram"></i><span> Instagram</span></a></li>
                             <li><a class="btn btn-icon btn-telegram" href="#"><i class="fa fa-telegram"></i><span> Telegram</span></a></li>
-                            <!-- <li><a href="#" class="black-text" role="link">Telegram</a></li>
-                            <li><a href="#" class="black-text" role="link">Youtube</a></li>
-                            <li><a href="#" class="black-text" role="link">Tiktok</a></li> -->
                         </ul>
                 </div>
             </div>
