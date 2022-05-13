@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Iniciar Sesión </title>
+    <link type="text/css" rel="stylesheet" href="../css/materialize.css"  media="screen,projection"/>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="../css/socialmediaicons.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/dimensions.css">
+    <link rel="stylesheet" href="../css/login.css">
+  </head>
+  <body>
+    <div class="center-align">
+      <h1 role="heading">CHACHO ELECTRONICS</h1>
+          <nav class="light-blue z-depth-5 center-align">
+              <a href="../index.html" role="link"> Inicio</a> |
+              <a href="#" role="link">Registrarse</a>
+          </nav>
+    </div>
+
+    <div class="form">
+      <form method="post" id="formulario">
+        <label for="nombre" class="black-text" id="nombretext"> Nombre </label>
+          <input type="text" name="nombre" id="nombre" placeholder="Pablo" required="required"></br>
+        <label for="password" class="black-text" id="passwordtext"> Contraseña</label>
+          <input type="password" name="password" id="password" required="required" ></br>
+      </form>
+      <div class="container">
+        <div class="section">
+          <button class="btn" id="login">Iniciar Sesión</button>
+        </div>
+      </div>   
+    </div>
+    <script src="login.js"></script>
+  </body>
+
+  <footer class="card light-blue z-depth-5">      
+    <div class="center-align row">
+        <div class="col s3">
+            <h5 tabindex="0" role="heading">¿Quiénes somos?</h5>
+                <ul role="toolbar">
+                    <li><a href="#" class="black-text" role="link">Marcas</a></li>
+                    <li><a href="#" class="black-text" role="link">Afiliados</a></li>
+                    <li><a href="#" class="black-text" role="link">Aviso Legal</a></li>
+                    <li><a href="#" class="black-text" role="link">Privacidad</a></li>
+                </ul>
+        </div>
+        <div class="col s3">
+            <h5 tabindex="0" role="heading">Contactar</h5>
+                <ul role="toolbar">
+                    <li><a href="#" class="black-text" role="link">Centro de soporte</a></li>
+                    <li><a href="#" class="black-text" role="link">Contacto</a></li>
+                    <li><a href="#" class="black-text" role="link">Devoluciones y Garantías</a></li>
+                    <li><a href="#" class="black-text" role="link">Publicidad</a></li>
+                    <li><a href="#" class="black-text" role="link">Política de cookies</a></li>
+                </ul>
+        </div>
+        <div class="col s3">
+            <h5 tabindex="0" role="heading">Otros</h5>
+                <ul role="toolbar">
+                    <li><a href="#" class="black-text" role="link">Black Friday</a></li>
+                    <li><a href="#" class="black-text" role="link">Cyber Monday</a></li>
+                    <li><a href="#" class="black-text" role="link">Marketplace</a></li>
+                    <li><a href="#" class="black-text" role="link">Servicio de reparaciones</a></li>
+                    <li><a href="#" class="black-text" role="link">Responsabilidad Social</a></li>
+                    <li><a href="#" class="black-text" role="link">Accesibilidad</a></li>
+                </ul>
+        </div>
+        <div class="col s3">
+            <h5 tabindex="0" role="heading">Redes Sociales</h5>
+                <ul role="toolbar" id="social-platforms">
+                    <li><a class="btn btn-icon btn-facebook" href="#"><i class="fa fa-facebook"></i><span> Facebook</span></a></li>
+                    <li><a class="btn btn-icon btn-twitter" href="#"><i class="fa fa-twitter"></i><span> Twitter</span></a></li>
+                    <li><a class="btn btn-icon btn-linkedin" href="#"><i class="fa fa-linkedin"></i><span> LinkedIn</span></a></li>
+                    <li><a class="btn btn-icon btn-instagram" href="#"><i class="fa fa-instagram"></i><span> Instagram</span></a></li>
+                    <li><a class="btn btn-icon btn-telegram" href="#"><i class="fa fa-telegram"></i><span> Telegram</span></a></li>
+                </ul>
+        </div>
+    </div>
+</footer>
+
+</html>

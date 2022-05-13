@@ -3,7 +3,6 @@ $(document).ready(function(){
   $("#MyAccount").hide();
 
   // Main Categories and My Account nav
-
   $("#MainCategoriesTitle").mouseenter(function(){
     $("#MainCategories").show();
   });
@@ -21,7 +20,6 @@ $(document).ready(function(){
   $("#MyAccountTitle").keyup(function(){
     $("#MyAccount").show();
   });
-
 
   $("#SecondMenu").mouseleave(function(){
     $("#MainCategories").hide();
