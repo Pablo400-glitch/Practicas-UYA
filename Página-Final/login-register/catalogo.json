@@ -1,0 +1,22 @@
+[
+  {
+    "nombre": "Felipe",
+    "password": "12345678",
+    "accountNumber": 1
+  },
+  {
+    "nombre": "Ricardo",
+    "password": "perro1234",
+    "accountNumber": 2
+  },
+  {
+    "nombre": "Pablo",
+    "password": "gato3456",
+    "accountNumber": 3
+  },
+  {
+    "nombre": "Saul",
+    "password": "pescado78",
+    "accountNumber": 4
+  }
+]
