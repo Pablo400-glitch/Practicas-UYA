@@ -22,7 +22,7 @@ function checkData() {
       let isUser = false;
       let empty = false;
 
-      if (password === ' ' || nombre === ' ') {
+      if (password === ' ' && nombre === ' ') {
         empty = true;
       } else {
         for (let item of datos) { 
