@@ -7,19 +7,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="../css/socialmediaicons.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/dimensions.css">
-    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/login-register.css">
   </head>
   <body>
     <div class="center-align">
       <h1 role="heading">CHACHO ELECTRONICS</h1>
           <nav class="light-blue z-depth-5 center-align">
               <a href="../index.html" role="link"> Inicio</a> |
-              <a href="#" role="link">Registrarse</a>
+              <a href="./register.html" role="link">Registrarse</a>
           </nav>
     </div>
 
     <div class="form">
-      <form method="post" id="formulario">
+      <form method="post" id="login-form">
         <label for="nombre" class="black-text" id="nombretext"> Nombre </label>
           <input type="text" name="nombre" id="nombre" placeholder="Pablo" required="required"></br>
         <label for="password" class="black-text" id="passwordtext"> Contraseña</label>
@@ -27,11 +27,11 @@
       </form>
       <div class="container">
         <div class="section">
-          <button class="btn" id="login">Iniciar Sesión</button>
+          <button class="btn" id="login-register">Iniciar Sesión</button>
         </div>
       </div>   
     </div>
-    <script src="login.js"></script>
+    <script src="login.js" type="module"></script>
   </body>
 
   <footer class="card light-blue z-depth-5">      

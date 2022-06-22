@@ -1,4 +1,3 @@
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-app.js";
 import { addDoc, getFirestore, collection, getDocs } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-firestore.js"
 
@@ -18,4 +17,8 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
-export const saveTask = (title, description) => addDoc(collection(db, 'tasks'), {title, description})
+const db = getFirestore();
+
+export const saveUser = (user, password) => addDoc(collection(db, 'users'), {user, password});
+
+export const getUser = () => getDocs(collection(db, 'users'))

@@ -1,4 +1,6 @@
-document.querySelector('#register').addEventListener('click', getJSONData);
+import {getUser, saveUser} from './firebase.js';
+
+document.querySelector('#login-register').addEventListener('click', registerUser);
 
 $(document).ready(function(){
   $("input").focus(function(){
@@ -9,48 +11,53 @@ $(document).ready(function(){
   });
 });
 
-function getJSONData() {
-  const xhttp = new XMLHttpRequest()
-  xhttp.open('GET', 'catalogo.json', true)
-  xhttp.send()
+async function registerUser() {
+  const data = await getUser();
 
-  xhttp.onreadystatechange = function() {
-    if(this.readyState == 4 && this.status == 200) {
-      let datos = JSON.parse(this.responseText);
-      let name = document.getElementsByName('nombre')[0].value;
-      let password = document.getElementsByName('password')[0].value;
-      let accountNumber = 1;
-      let userName = [];
+  let name = document.getElementsByName('nombre')[0].value;
+  let password = document.getElementsByName('password')[0].value;
+  let empty = false;
+  let passwordLenght = false;
+  let existingUser = false;
 
-      for (let item of datos) {
-        userName.push(item.nombre);
-      }
-
-      userName.forEach((username) => {
-        if (name === username) {
-          alert('Ese usuario ya existe');
+  console.log("Contraseña",password.length, name.length,"prueba");
+  if (password.length === 0 || name.length === 0) {
+    empty = true;
+  } else {
+    if (password.length < 8 && password.length > 0) {
+      passwordLenght = true;
+    } else {
+      data.forEach(doc => {
+        if (name === doc.data().nombre) {
+          console.log(doc.data().nombre)
+          existingUser = true;
         } 
-      });
-
-      if (password.length < 8) {
-        alert('Esa contraseña es demasiado corta, introduzca una que tenga más de 8 caracteres');
-      }
-
-      for (let item of datos) {
-        if (accountNumber === item.accountNumber) {
-          accountNumber++;
-        } 
-      }
-
-      let newUser = {
-        nombre: name,
-        password: password,
-        accountNumber: accountNumber,
-      }
-
-      alert('Usuario añadido');
-
-      datos.push(newUser);
+      })
+    }
+  }
+    
+  if (empty) {
+    alert('No ha introducido ningún dato o le falta alguno');
+  } else {
+    if (passwordLenght) {
+      alert('Esa contraseña es demasiado corta, introduzca una que tenga más de 8 caracteres');
+    } else {
+      if (existingUser) {
+        alert('Ese usuario ya existe');
+      } else {
+        saveUser(name, password);
+        alert('Se ha registrado de forma satisfactoria');
+        $(document).ready(function(){
+          $("#showdata").show();
+          $("#register").hide();
+          $("#nombretext").hide();
+          $("#passwordtext").hide();
+          $("#nombre").hide();
+          $("#password").hide();
+          $("#login-register").hide();
+        });
+      } 
     }
   }
 }
+
