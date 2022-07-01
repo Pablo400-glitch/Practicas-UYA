@@ -20,7 +20,6 @@ async function registerUser() {
   let passwordLenght = false;
   let existingUser = false;
 
-  console.log("Contraseña",password.length, name.length,"prueba");
   if (password.length === 0 || name.length === 0) {
     empty = true;
   } else {
@@ -29,7 +28,6 @@ async function registerUser() {
     } else {
       data.forEach(doc => {
         if (name === doc.data().nombre) {
-          console.log(doc.data().nombre)
           existingUser = true;
         } 
       })
