@@ -7,10 +7,17 @@ figure {
 
 html {
   margin-left:4% ;
-  margin-right:4% ;
+  margin-right:4%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
 }
 
 .Buscador{
   margin-top: 4%;
   margin-bottom: 2%;
 }
+
+.box {
+  border: 4px solid rgba(107, 107, 107, 0.76);
+}
+    

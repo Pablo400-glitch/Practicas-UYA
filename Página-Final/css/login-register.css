@@ -19,9 +19,11 @@
 	text-decoration:none;
 	text-shadow:0px 1px 0px #21428a;
 }
+
 #login-register:hover {
 	background-color:#37aaf2;
 }
+
 #login-register:active {
 	position:relative;
 	top:1px;
