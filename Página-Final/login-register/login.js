@@ -24,12 +24,14 @@ async function checkData() {
   } else {
     data.forEach(doc => {
       const user = doc.data();
-      if(nombre === user.nombre && password === user.password) {    
+
+      if(nombre === user.user && password === user.password) {    
         isUser = true;
       } 
     });
   }
 
+  console.log(isUser);
   if (isUser === true) {
     alert('Se ha iniciado sesión de forma satisfactoria');
     $(document).ready(function(){
